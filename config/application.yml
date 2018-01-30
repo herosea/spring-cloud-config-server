@@ -1,0 +1,8 @@
+spring:
+  config:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/herosea/spring-cloud-config-repo.git
